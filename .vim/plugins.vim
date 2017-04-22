@@ -93,4 +93,7 @@ call plug#begin('~/.vim/plugged')
 " Up-to-date PHP syntax file
   Plug 'stanangeloff/php.vim'
 
+" Blade syntax support
+  Plug 'jwalton512/vim-blade'
+
 call plug#end()

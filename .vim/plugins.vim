@@ -96,4 +96,8 @@ call plug#begin('~/.vim/plugged')
 " Blade syntax support
   Plug 'jwalton512/vim-blade'
 
+" Java
+  Plug 'artur-shaik/vim-javacomplete2'
+    autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
 call plug#end()

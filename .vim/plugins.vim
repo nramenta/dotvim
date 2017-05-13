@@ -49,7 +49,7 @@ call plug#begin('~/.vim/plugged')
 
 " Supertab code completion"
   Plug 'ervandew/supertab'
-  let g:SuperTabContextDefaultCompletionType = "<c-n>"
+  let g:SuperTabDefaultCompletionType = "context"
 
 " Surround for adding surround 'physics'
   Plug 'tpope/vim-surround'

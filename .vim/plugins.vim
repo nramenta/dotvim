@@ -7,9 +7,9 @@ call plug#begin('~/.vim/plugged')
 " NERDTree for project drawer
   Plug 'scrooloose/nerdtree'
     let NERDTreeHijackNetrw = 0
+    let NERDTreeIgnore = ['\.pyc$']
     nmap <leader>g :NERDTreeToggle<CR>
     nmap <leader>G :NERDTreeFind<CR>
-    let NERDTreeIgnore = ['\.pyc$']
 
 " NERDTree Plugin
   Plug 'Xuyuanp/nerdtree-git-plugin'

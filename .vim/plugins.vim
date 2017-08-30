@@ -96,4 +96,7 @@ call plug#begin('~/.vim/plugged')
 " Blade syntax support
   Plug 'jwalton512/vim-blade'
 
+" Go development plugin
+  Plug 'fatih/vim-go'
+
 call plug#end()

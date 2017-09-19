@@ -9,9 +9,6 @@
   set guioptions-=r
   set guioptions-=L
 
-" go full screen like you mean it
-  set fuoptions=maxvert,maxhorz
-
 " set default font
   set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h12
 

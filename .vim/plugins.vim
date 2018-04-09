@@ -75,8 +75,6 @@ call plug#begin('~/.vim/plugged')
     let g:syntastic_mode_map = { 'mode': 'active',
                                \ 'active_filetypes': [],
                                \ 'passive_filetypes': ['haml','scss','sass'] }
-    " Use php for syntax checking; skip phpcs, phplint, phpmd
-    let g:syntastic_php_checkers = ['php']
 
 " ### FILE TYPES ###
 

@@ -64,9 +64,6 @@ call plug#begin('~/.vim/plugged')
 " File-type sensible comments
   Plug 'tomtom/tcomment_vim'
 
-" Multi-language DBGP debugger client
-  Plug 'joonty/vdebug'
-
 " Vimwiki
   Plug 'vimwiki/vimwiki'
 

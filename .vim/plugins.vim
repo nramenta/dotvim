@@ -94,13 +94,4 @@ call plug#begin('~/.vim/plugged')
 " Markdown preview to quickly preview markdown files
   map <buffer> <Leader>mp :Mm<CR>
 
-" Up-to-date PHP syntax file
-  Plug 'stanangeloff/php.vim'
-
-" Blade syntax support
-  Plug 'jwalton512/vim-blade'
-
-" Go development plugin
-  Plug 'fatih/vim-go'
-
 call plug#end()

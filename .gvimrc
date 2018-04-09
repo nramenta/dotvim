@@ -10,7 +10,7 @@
   set guioptions-=L
 
 " set default font
-  set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h12
+  set guifont=Inconsolata-dz\ for\ Powerline:h12
 
 " initial window size
   set lines=45 columns=120

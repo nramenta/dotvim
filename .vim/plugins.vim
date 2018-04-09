@@ -29,12 +29,6 @@ call plug#begin('~/.vim/plugged')
     let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
     let g:ctrlp_switch_buffer = '0' " Dont jump me to already open file in another buffer; let me have mulitple copies
 
-" Tagbar for navigation by tags using CTags
-  Plug 'majutsushi/tagbar'
-    let g:tagbar_autofocus = 1
-    map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
-    map <Leader>. :TagbarToggle<CR>
-
 " GitGutter
   Plug 'airblade/vim-gitgutter'
 

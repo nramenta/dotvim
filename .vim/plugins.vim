@@ -35,16 +35,6 @@ call plug#begin('~/.vim/plugged')
     map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
     map <Leader>. :TagbarToggle<CR>
 
-" AG aka The Silver Searcher
-  Plug 'rking/ag.vim'
-    nmap g/ :Ag!<space>
-    nmap g* :Ag! -w <C-R><C-W><space>
-    nmap ga :AgAdd!<space>
-    nmap gn :cnext<CR>
-    nmap gp :cprev<CR>
-    nmap gq :ccl<CR>
-    nmap gl :cwindow<CR>
-
 " GitGutter
   Plug 'airblade/vim-gitgutter'
 

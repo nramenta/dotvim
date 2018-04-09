@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 " seoul256 color scheme
   Plug 'junegunn/seoul256.vim'
-  colorscheme seoul256
 
 " Vim airline configs
   Plug 'bling/vim-airline'

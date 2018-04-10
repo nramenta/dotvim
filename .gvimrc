@@ -16,7 +16,7 @@
   set lines=45 columns=120
 
 " pretty but not terminal-compatible color scheme
-  colorscheme seoul256
+  colorscheme codeschool
 
 " Go to tab by number
   noremap <D-1> 1gt

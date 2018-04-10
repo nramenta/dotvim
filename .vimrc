@@ -12,9 +12,6 @@
 " default color scheme
   set t_Co=256
 
-" set colorscheme
-  colorscheme seoul256
-
 " don't wrap long lines
   set nowrap
 

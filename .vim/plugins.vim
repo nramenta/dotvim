@@ -1,8 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-" seoul256 color scheme
-  Plug 'junegunn/seoul256.vim'
-
 " Vim airline configs
   Plug 'bling/vim-airline'
   let g:airline_powerline_fonts = 1

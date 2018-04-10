@@ -17,9 +17,6 @@ call plug#begin('~/.vim/plugged')
 " GitGutter
   Plug 'airblade/vim-gitgutter'
 
-" Git wrapper
-  Plug 'tpope/vim-fugitive'
-
 " A super simple, super minimal, super light-weight tab-completion plugin for Vim
   Plug 'ajh17/vimcompletesme'
     let g:vcm_omni_pattern = '\k\+\(\.\|->\|::\|_\)\k*$'

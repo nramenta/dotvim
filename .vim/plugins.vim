@@ -40,4 +40,7 @@ call plug#begin('~/.vim/plugged')
     let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
     let g:ctrlp_switch_buffer = '0' " Dont jump me to already open file in another buffer; let me have multiple copies
 
+" Support for ripgrep
+  Plug 'jremmen/vim-ripgrep'
+
 call plug#end()

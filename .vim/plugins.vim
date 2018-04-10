@@ -30,4 +30,14 @@ call plug#begin('~/.vim/plugged')
 " File-type sensible comments
   Plug 'tomtom/tcomment_vim'
 
+" CtrlP
+  Plug 'ctrlpvim/ctrlp.vim'
+    nnoremap <Leader>b :<C-U>CtrlPBuffer<CR>
+    nnoremap <Leader>t :<C-U>CtrlP<CR>
+    nnoremap <Leader>T :<C-U>CtrlPTag<CR>
+    nnoremap <C-p> :<C-U>CtrlP<CR>
+    " respect .gitignore
+    let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
+    let g:ctrlp_switch_buffer = '0' " Dont jump me to already open file in another buffer; let me have multiple copies
+
 call plug#end()

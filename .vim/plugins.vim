@@ -30,7 +30,4 @@ call plug#begin('~/.vim/plugged')
 " File-type sensible comments
   Plug 'tomtom/tcomment_vim'
 
-" Vimwiki
-  Plug 'vimwiki/vimwiki'
-
 call plug#end()

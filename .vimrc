@@ -124,6 +124,9 @@
   command! StripTrailingWhitespaces call <SID>StripTrailingWhitespaces()
   autocmd BufWritePre <buffer> call <SID>StripTrailingWhitespaces()
 
+" fast update
+  set updatetime=100
+
 " ### MAPPING ###
 
 " easy wrap toggling

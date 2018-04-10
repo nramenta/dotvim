@@ -52,6 +52,12 @@
 " don't abandon buffers when unloading
   set hidden
 
+" set utf8 as standard encoding
+  set encoding=utf8
+
+" set unix as standard filetype
+  set ffs=unix
+
 " match indentation of previous line
   set autoindent
 

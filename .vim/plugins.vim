@@ -39,17 +39,4 @@ call plug#begin('~/.vim/plugged')
 " Vimwiki
   Plug 'vimwiki/vimwiki'
 
-" ### FILE TYPES ###
-
-" Markdown syntax highlighting
-  Plug 'tpope/vim-markdown'
-    augroup mkd
-      autocmd BufNewFile,BufRead *.mkd      set ai formatoptions=tcroqn2 comments=n:> filetype=markdown
-      autocmd BufNewFile,BufRead *.md       set ai formatoptions=tcroqn2 comments=n:> filetype=markdown
-      autocmd BufNewFile,BufRead *.markdown set ai formatoptions=tcroqn2 comments=n:> filetype=markdown
-    augroup END
-
-" Markdown preview to quickly preview markdown files
-  map <buffer> <Leader>mp :Mm<CR>
-
 call plug#end()

@@ -32,6 +32,7 @@ call plug#begin('~/.vim/plugged')
 
 " Command-T
   Plug 'wincent/command-t'
+  let g:CommandTFileScanner = 'git'
 
 " Support for ripgrep
   Plug 'jremmen/vim-ripgrep'

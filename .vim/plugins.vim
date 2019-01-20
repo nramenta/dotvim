@@ -14,6 +14,9 @@ call plug#begin('~/.vim/plugged')
 " NERDTree Plugin
   Plug 'Xuyuanp/nerdtree-git-plugin'
 
+  " Fugitive Git wrapper
+  Plug 'tpope/vim-fugitive'
+
 " GitGutter
   Plug 'airblade/vim-gitgutter'
 

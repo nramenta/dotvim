@@ -18,6 +18,9 @@
 " pretty but not terminal-compatible color scheme
   colorscheme codeschool
 
+" don't blink the cursor
+  set guicursor=a:blinkon0
+
 " Go to tab by number
   noremap <D-1> 1gt
   noremap <D-2> 2gt

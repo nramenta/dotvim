@@ -64,9 +64,6 @@
 " perform autoindenting based on filetype plugin
   filetype plugin indent on
 
-" don't blink the cursor
-  set guicursor=a:blinkon0
-
 " highlight current line
   set cursorline
 

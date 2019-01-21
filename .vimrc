@@ -190,16 +190,3 @@
 " insert the path of currently edited file into a command
 " Command mode: Ctrl-P
   cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
-
-" map CMD + i to Esc
-  inoremap <D-i> <Esc>
-  cnoremap <D-i> <Esc>
-
-" map CMD + [ to go to the previous buffer
-  nnoremap <D-[> :bprevious<CR>
-
-" map CMD + ] to go to the next buffer
-  nnoremap <D-]> :bnext<CR>
-
-" map CMD + Backspace to delete the current buffer
-  nnoremap <D-BS> :bd!<CR>

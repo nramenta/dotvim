@@ -1,3 +1,5 @@
+" MacVim specific
+
 " have the mouse enabled all the time
   set mouse=a
 

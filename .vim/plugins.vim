@@ -16,6 +16,18 @@ call plug#begin('~/.vim/plugged')
 
 " NERDTree Plugin
   Plug 'Xuyuanp/nerdtree-git-plugin'
+  let g:NERDTreeIndicatorMapCustom = {
+  \ 'Modified': '*',
+  \ 'Staged': '+',
+  \ 'Untracked': '?',
+  \ 'Renamed': '~',
+  \ 'Unmerged': '=',
+  \ 'Deleted': '-',
+  \ 'Dirty': '!',
+  \ 'Clean': '',
+  \ 'Ignored': '_',
+  \ 'Unknown': '?'
+  \ }
 
   " Fugitive Git wrapper
   Plug 'tpope/vim-fugitive'

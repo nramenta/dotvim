@@ -3,6 +3,11 @@
 
 " ### GENERAL ###
 
+" colorscheme
+  let g:solarized_termcolors=256
+  set background=light
+  colorscheme solarized
+
 " required for several plugins
   set nocompatible
 

@@ -1,5 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
+" Solarized color scheme
+  Plug 'altercation/vim-colors-solarized'
+
 " Vim airline configs
   Plug 'bling/vim-airline'
   let g:airline_powerline_fonts = 1

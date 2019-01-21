@@ -1,3 +1,6 @@
+" have the mouse enabled all the time
+  set mouse=a
+
 " use gui tabs
   set guioptions+=e
 

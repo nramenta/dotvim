@@ -5,7 +5,7 @@
 
 " colorscheme
   let g:solarized_termcolors=256
-  set background=light
+  set background=dark
   colorscheme solarized
 
 " required for several plugins

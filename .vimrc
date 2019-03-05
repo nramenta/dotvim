@@ -92,7 +92,7 @@
   set backspace=indent,eol,start
 
 " highlight trailing whitespace
-  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+  set listchars=tab:\│\ ,trail:-,extends:>,precedes:<,nbsp:+
   set list
 
 " use tab-complete to see a list of possiblities when entering commands

@@ -9,10 +9,10 @@ call plug#begin('~/.vim/plugged')
 
 " NERDTree for project drawer
   Plug 'scrooloose/nerdtree'
-    let NERDTreeHijackNetrw = 0
-    let NERDTreeIgnore = ['\.pyc$']
-    nmap <leader>g :NERDTreeToggle<CR>
-    nmap <leader>G :NERDTreeFind<CR>
+  let NERDTreeHijackNetrw = 0
+  let NERDTreeIgnore = ['\.pyc$']
+  nmap <leader>g :NERDTreeToggle<CR>
+  nmap <leader>G :NERDTreeFind<CR>
 
 " NERDTree Plugin
   Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -37,7 +37,7 @@ call plug#begin('~/.vim/plugged')
 
 " A super simple, super minimal, super light-weight tab-completion plugin for Vim
   Plug 'ajh17/vimcompletesme'
-    let g:vcm_omni_pattern = '\k\+\(\.\|->\|::\|_\)\k*$'
+  let g:vcm_omni_pattern = '\k\+\(\.\|->\|::\|_\)\k*$'
 
 " Surround for adding surround 'physics'
   Plug 'tpope/vim-surround'

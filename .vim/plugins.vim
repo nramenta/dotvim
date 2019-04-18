@@ -55,6 +55,9 @@ call plug#begin('~/.vim/plugged')
 " Support for ripgrep
   Plug 'jremmen/vim-ripgrep'
 
+" Wiki
+  Plug 'vimwiki/vimwiki'
+
 " vim-go
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 

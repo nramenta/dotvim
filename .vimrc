@@ -4,6 +4,7 @@
 " ### GENERAL ###
 
 " colorscheme
+  set t_Co=256
   let g:solarized_termcolors=256
   set background=dark
   colorscheme solarized
@@ -13,9 +14,6 @@
 
 " enable syntax highlighting
   syntax on
-
-" default color scheme
-  set t_Co=256
 
 " don't wrap long lines
   set nowrap

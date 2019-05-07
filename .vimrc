@@ -28,8 +28,7 @@
   set scrolloff=4 sidescrolloff=10
 
 " use 4 spaces for tabs
-  set expandtab tabstop=4 softtabstop=4 shiftwidth=4
-  set smarttab
+  set expandtab tabstop=4 softtabstop=4 shiftwidth=4 smarttab
 
 " enable line numbers, and don't make them any wider than necessary
   set number numberwidth=2
@@ -80,8 +79,7 @@
   set display=lastline
 
 " flip the default split directions to sane ones
-  set splitright
-  set splitbelow
+  set splitright splitbelow
 
 " don't beep for errors
   set visualbell
@@ -90,8 +88,7 @@
   set backspace=indent,eol,start
 
 " highlight trailing whitespace
-  set listchars=tab:\│\ ,trail:-,extends:>,precedes:<,nbsp:+
-  set list
+  set listchars=tab:\│\ ,trail:-,extends:>,precedes:<,nbsp:+ list
 
 " use tab-complete to see a list of possiblities when entering commands
   set wildmode=list:longest,full

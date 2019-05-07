@@ -124,6 +124,13 @@
   command! StripTrailingWhitespaces call <SID>StripTrailingWhitespaces()
   autocmd BufWritePre <buffer> call <SID>StripTrailingWhitespaces()
 
+" automatic absolute to relative line number toggle
+  augroup numbertoggle
+    autocmd!
+    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+  augroup END
+
 " fast update
   set updatetime=100
 

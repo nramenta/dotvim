@@ -31,7 +31,7 @@
   set expandtab tabstop=4 softtabstop=4 shiftwidth=4 smarttab
 
 " enable line numbers, and don't make them any wider than necessary
-  set number numberwidth=2
+  set number numberwidth=2 relativenumber
 
 " show the first match as search strings are typed
   set incsearch
@@ -123,13 +123,6 @@
   endfunction
   command! StripTrailingWhitespaces call <SID>StripTrailingWhitespaces()
   autocmd BufWritePre <buffer> call <SID>StripTrailingWhitespaces()
-
-" automatic absolute to relative line number toggle
-  augroup numbertoggle
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-  augroup END
 
 " fast update
   set updatetime=100

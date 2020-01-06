@@ -58,7 +58,4 @@ call plug#begin('~/.vim/plugged')
 " Wiki
   Plug 'vimwiki/vimwiki'
 
-" vim-go
-  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
 call plug#end()
